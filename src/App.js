@@ -1,41 +1,14 @@
-import React, { useState } from "react";
-import "./App.css";
+import { BrowserRouter, Route } from "react-router-dom";
+import TOP from "./page/TOP";
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-export const App = () => {
-  const [omikuji, setOmikuji] = useState("引く");
-  const onClickOmikuji = () => {
-    let arr = ["大吉", "小吉", "中吉", "吉", "凶", "大凶"];
-    let index = Math.floor(Math.random() * arr.length);
-    setOmikuji(arr[index]);
-  };
+function App() {
   return (
-    <>
-      <p className="btn" onClick={onClickOmikuji}>
-        {omikuji}
-      </p>
-    </>
+    <BrowserRouter>
+      <h1>Hello React Router</h1>
+      <Route path="/">
+        <TOP />
+      </Route>
+    </BrowserRouter>
   );
-};
-
+}
 export default App;
