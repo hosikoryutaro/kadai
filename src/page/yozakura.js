@@ -1,7 +1,7 @@
 function yozakura() {
   return (
     <div>
-      <img src="../img/main_yozakura.jpg"></img>
+      <img src="/public/main_yozakura.jpg"></img>
       <h1>夜桜さんちの大作戦</h1>
       <h2>あらすじ</h2>
       <div>
