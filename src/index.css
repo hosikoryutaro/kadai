@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.h1{
+  text-align: center;
+}
+
+.btn {
+  background-color: #ccc;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Noto sans jp';
+  font-weight: bold;
+  font-size: 150%;
+}
