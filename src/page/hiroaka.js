@@ -1,7 +1,7 @@
 function hiroaka() {
   return (
     <div>
-      <img src="../img/hiroaka.jpg"></img>
+      <img src="/hiroaka.jpg" alt="" width={500} height={300}></img>
       <h1>僕のヒーローアカデミア</h1>
       <h2>あらすじ</h2>
       <div>

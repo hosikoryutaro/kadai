@@ -1,7 +1,7 @@
 function koori() {
   return (
     <div>
-      <img src="/public/koori.jpg"></img>
+      <img src="/koori.jpg" alt="" width={300} height={400}></img>
       <h1>氷の城壁</h1>
       <h2>あらすじ</h2>
       <div>

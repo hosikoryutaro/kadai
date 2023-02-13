@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function TOP() {
   return (
     <div>
-      <h1>私がオススメするラーメン店</h1>
+      <h1>おすすめの漫画紹介</h1>
       <ul>
         <li>
           <Link to="/hiroaka">ヒロアカ</Link>
